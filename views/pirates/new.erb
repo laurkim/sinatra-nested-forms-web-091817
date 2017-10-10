@@ -7,26 +7,32 @@
   </head>
   <body>
     <h1>Create a Pirate and Ships to Sail the Seas With</h1>
+
     <form action="/pirates" method="post">
+
       <p><label for="pirate[name]">Pirate Name: </label>
       <input type="text" name="pirate[name]"></p>
       <p><label for="pirate[height]">Pirate Height: </label>
       <input type="text" name="pirate[height]"></p>
       <p><label for="pirate[weight]">Pirate Weight: </label>
       <input type="text" name="pirate[weight]"></p>
+
       <p><label for="ships[][name]">Ship_1 Name: </label>
       <input id="ship_name_1" input type="text" name="pirate[ships][][name]"></p>
       <p><label for="ships[][type]">Ship_1 Type: </label>
       <input id ="ship_type_1" input type="text" name="pirate[ships][][type]"></p>
       <p><label for="ships[][booty]">Ship_1 Booty: </label>
       <input id="ship_booty_1" input type="text" name="pirate[ships][][booty]"></p>
+
       <p><label for="ships[][name]">Ship_2 Name: </label>
       <input id="ship_name_2" input type="text" name="pirate[ships][][name]"></p>
       <p><label for="ships[][type]">Ship_2 Type: </label>
       <input id ="ship_type_2" input type="text" name="pirate[ships][][type]"></p>
       <p><label for="ships[][booty]">Ship_2 Booty: </label>
       <input id="ship_booty_2" input type="text" name="pirate[ships][][booty]"></p>
+
       <input type="submit" value="Submit">
+      
     </form>
   </body>
 </html>
